@@ -1,0 +1,13 @@
+.container{
+    background-color: #f8fbff;
+    width: 700px;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+.container span{
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}

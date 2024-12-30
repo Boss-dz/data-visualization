@@ -1,0 +1,41 @@
+.sidebar {
+  background-color: #f8fbff;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  display: flex;
+  column-gap: 20px;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+}
+.title p{
+  font-weight: 600;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.4s ease;
+}
+.active {
+  color: darkmagenta;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+}
+.link:hover {
+  color: darkmagenta; /* Hover color */
+}

@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+    align-items: center;
+    height: 40px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0 5px;
+    width: 200px;
+}
+.search input{
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.title{
+    line-height: 2;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+}
